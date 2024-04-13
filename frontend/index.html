@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Market Dashboard</h1>
+        <div class="form">
+            <label for="stock">Select Stock:</label>
+            <select id="stock">
+                <option value="apple">AAPL - Apple</option>
+                <option value="google">GOOG - Google</option>
+                <option value="meta">META - Meta</option>
+                <option value="microsoft">MSFT - Microsoft</option>
+                <option value="netflix">NFLX - Netflix</option>
+                <option value="nvda">NVDA - Nvidia</option>
+                <option value="tesla">TSLA - Tesla</option>
+            </select>
+            <label for="fromMonth">From:</label>
+            <input type="month" id="fromMonth">
+            <label for="toMonth">To:</label>
+            <input type="month" id="toMonth">
+            <button onclick="generateGraph()">Generate Graph</button>
+        </div>
+        <div id="chartContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

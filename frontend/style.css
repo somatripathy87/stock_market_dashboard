@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#chartContainer {
+    margin-top: 20px;
+}
